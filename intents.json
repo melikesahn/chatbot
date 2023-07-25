@@ -1,0 +1,64 @@
+{
+    "intents": [
+        {
+            "tag": "greetings",
+            "patterns": ["merhaba", "selam", "hey", "naber?", "iyi günler", "orada kimse var mı?", "nasılsınız?", "gününüz nasıl geçti?", "nasılsın?"],
+            "responses": ["Merhaba!", "Selam!", "Hey! Yardımıma ihtiyacınız var mı?", "Ben iyiyim!", "Ben iyiyim! Size nasıl yardımcı olabilirim?"]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": ["ayrılıyorum", "görüşürüz", "sonra görüşürüz", "hoşça kal", "iyi günler", "güle güle", "cao", "gidiyorum", "bye"],
+            "responses": ["Gidişini görmek üzücü.", "Sonra konuşuruz.", "Güle güle!", "Umarım tekrar görüşürüz!"]
+        },
+        {
+            "tag": "about",
+            "patterns": ["sen kimsin?"],
+            "responses": ["Ben, bu platformun asistanıyım.", "Sorunları çözmek için buradayım."]
+        },
+        {
+            "tag": "name",
+            "patterns": ["Adın ne", "Seni nasıl çağırmalıyım", "ismin ne?"],
+            "responses": ["Beni Portal olarak çağırabilirsiniz.", "Ben, bu platformun asistanıyım.", "Sorunları çözmek için buradayım."]
+        },
+        {
+            "tag": "age",
+            "patterns": ["kaç yaşındasın", "Portal kaç yaşında", "yaşın ne", "kaç yaşındasınız", "yaşınız?"],
+            "responses": ["Bu konuda bilgi veremiyorum :)"]
+        },
+        {
+            "tag": "help",
+            "patterns": ["yardım", "yardım edin", "destek", "Sorunları çözmek istiyorum", "bir sorun var",  "yardım et"],
+            "responses": ["Sorunları çözmek için buradayım, konu nedir?", "Size yardımcı olmaktan mutluluk duyarım, konu nedir?", "Sorun nedir?"]
+        },
+        {
+            "tag": "ticket",
+            "patterns": [  "ticket nedir?", "ticket açmak istiyorum", "ticket nasıl kullanılır?", "ticket hakkında bilgi almak istiyorum"],
+            "responses": ["ticket bilgi verildi.",  "Ticket açmak ister misin?", "ticket şu şekilde ve şu amaçla kullanılır","ticket hakkında bilgi verildi."]
+        },
+        {
+            "tag": "faq",
+            "patterns": ["sıkça sorulan sorular", "SSS", "sık sorulan sorular", "genel bilgi", "FAQ", "bilgi", "sorular", "sıkça sorulanlar"],
+            "responses": ["İşte bazı sıkça sorulan sorular:", "Bu en sık sorulan sorular:", "Size sıkça sorulan bazı soruların cevaplarını sunuyorum:"]
+        },
+        {
+            "tag": "hours",
+            "patterns": ["Ne zaman açıksınız", "Çalışma saatleriniz nedir", "Çalışma saatleri"],
+            "responses": ["7/24"]
+        },
+        {
+            "tag": "thanks",
+            "patterns": ["teşekkürler", "çok teşekkür ederim", "bu çok yardımcı oldu", "harika, teşekkürler", "yardımın için teşekkürler"],
+            "responses": ["Yardım edebildiğim için mutluyum?", "Her zaman!", "Benim için zevkti!", "Umarım yardımcı olabilmişimdir!", "Rica ederim!"]
+        },
+        {
+            "tag": "noanswer",
+            "patterns": [],
+            "responses": ["Özür dilerim, sizi anlayamadım.", "Lütfen daha fazla bilgi verir misiniz?", "Sizi anladığımdan emin değilim."]
+        },
+        {
+            "tag": "options",
+            "patterns": ["Bana nasıl yardım edebilirsin?", "Neler yapabiliyorsun?"],
+            "responses": ["Sorunları çözmek için buradayım, konu nedir?", "Ticket, scrumboard veya task management'tan bahsedebilirim.\nPlatformun nasıl çalıştığını anlatabilirim."]
+        }       
+    ]
+}
