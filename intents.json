@@ -31,10 +31,21 @@
             "responses": ["Sorunları çözmek için buradayım, konu nedir?", "Size yardımcı olmaktan mutluluk duyarım, konu nedir?", "Sorun nedir?"]
         },
         {
-            "tag": "ticket",
-            "patterns": [  "ticket nedir?", "ticket açmak istiyorum", "ticket nasıl kullanılır?", "ticket hakkında bilgi almak istiyorum"],
-            "responses": ["ticket bilgi verildi.",  "Ticket açmak ister misin?", "ticket şu şekilde ve şu amaçla kullanılır","ticket hakkında bilgi verildi."]
-        },
+    "tag": "ticket",
+    "patterns": [
+        "ticket nedir?",
+        "ticket açmak istiyorum",
+        "ticket nasıl kullanılır?",
+        "ticket hakkında bilgi almak istiyorum"
+    ],
+    "responses": [
+        "ticket bilgi verildi.",
+        "Ticket açmak ister misin?",
+        "ticket şu şekilde ve şu amaçla kullanılır",
+        "ticket hakkında bilgi verildi."
+    ]
+    },
+
         {
             "tag": "faq",
             "patterns": ["sıkça sorulan sorular", "SSS", "sık sorulan sorular", "genel bilgi", "FAQ", "bilgi", "sorular", "sıkça sorulanlar"],
