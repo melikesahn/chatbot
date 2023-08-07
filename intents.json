@@ -1,75 +1,38 @@
-{
-    "intents": [
-        {
-            "tag": "greetings",
-            "patterns": ["merhaba", "selam", "hey", "naber?", "iyi günler", "orada kimse var mı?", "nasılsınız?", "gününüz nasıl geçti?", "nasılsın?"],
-            "responses": ["Merhaba!", "Selam!", "Hey! Yardımıma ihtiyacınız var mı?", "Ben iyiyim!", "Ben iyiyim! Size nasıl yardımcı olabilirim?"]
-        },
-        {
-            "tag": "goodbye",
-            "patterns": ["ayrılıyorum", "görüşürüz", "sonra görüşürüz", "hoşça kal", "iyi günler", "güle güle", "cao", "gidiyorum", "bye"],
-            "responses": ["Gidişini görmek üzücü.", "Sonra konuşuruz.", "Güle güle!", "Umarım tekrar görüşürüz!"]
-        },
-        {
-            "tag": "about",
-            "patterns": ["sen kimsin?"],
-            "responses": ["Ben, bu platformun asistanıyım.", "Sorunları çözmek için buradayım."]
-        },
-        {
-            "tag": "name",
-            "patterns": ["Adın ne", "Seni nasıl çağırmalıyım", "ismin ne?"],
-            "responses": ["Beni Portal olarak çağırabilirsiniz.", "Ben, bu platformun asistanıyım.", "Sorunları çözmek için buradayım."]
-        },
-        {
-            "tag": "age",
-            "patterns": ["kaç yaşındasın", "Portal kaç yaşında", "yaşın ne", "kaç yaşındasınız", "yaşınız?"],
-            "responses": ["Bu konuda bilgi veremiyorum :)"]
-        },
-        {
-            "tag": "help",
-            "patterns": ["yardım", "yardım edin", "destek", "Sorunları çözmek istiyorum", "bir sorun var",  "yardım et"],
-            "responses": ["Sorunları çözmek için buradayım, konu nedir?", "Size yardımcı olmaktan mutluluk duyarım, konu nedir?", "Sorun nedir?"]
-        },
-        {
-    "tag": "ticket",
-    "patterns": [
-        "ticket nedir?",
-        "ticket açmak istiyorum",
-        "ticket nasıl kullanılır?",
-        "ticket hakkında bilgi almak istiyorum"
-    ],
-    "responses": [
-        "ticket bilgi verildi.",
-        "Ticket açmak ister misin?",
-        "ticket şu şekilde ve şu amaçla kullanılır",
-        "ticket hakkında bilgi verildi."
-    ]
+{ "intents": [
+    {
+        "tag": "greetings",
+        "patterns": ["hi", "hello", "hey", "what's up?", "good day", "greetings", "how is it going?", "how was you day?", "how are you?"],
+        "responses": ["Hi!", "Hey!", "Hello!", "I'm fine!", "What can I do for you?"]
     },
-
-        {
-            "tag": "faq",
-            "patterns": ["sıkça sorulan sorular", "SSS", "sık sorulan sorular", "genel bilgi", "FAQ", "bilgi", "sorular", "sıkça sorulanlar"],
-            "responses": ["İşte bazı sıkça sorulan sorular:", "Bu en sık sorulan sorular:", "Size sıkça sorulan bazı soruların cevaplarını sunuyorum:"]
-        },
-        {
-            "tag": "hours",
-            "patterns": ["Ne zaman açıksınız", "Çalışma saatleriniz nedir", "Çalışma saatleri"],
-            "responses": ["7/24"]
-        },
-        {
-            "tag": "thanks",
-            "patterns": ["teşekkürler", "çok teşekkür ederim", "bu çok yardımcı oldu", "harika, teşekkürler", "yardımın için teşekkürler"],
-            "responses": ["Yardım edebildiğim için mutluyum?", "Her zaman!", "Benim için zevkti!", "Umarım yardımcı olabilmişimdir!", "Rica ederim!"]
-        },
-        {
-            "tag": "noanswer",
-            "patterns": [],
-            "responses": ["Özür dilerim, sizi anlayamadım.", "Lütfen daha fazla bilgi verir misiniz?", "Sizi anladığımdan emin değilim."]
-        },
-        {
-            "tag": "options",
-            "patterns": ["Bana nasıl yardım edebilirsin?", "Neler yapabiliyorsun?"],
-            "responses": ["Sorunları çözmek için buradayım, konu nedir?", "Ticket, scrumboard veya task management'tan bahsedebilirim.\nPlatformun nasıl çalıştığını anlatabilirim."]
-        }       
-    ]
-}
+    {
+        "tag": "goodbye",
+        "patterns": ["I am leaving", "cya", "see you later", "goodbye", "Have a Good day", "bye", "cao"],
+        "responses": ["Sad to see you go", "Talk to you later", "Goodbye", "I hope, I can see you again"]
+    },
+    {
+        "tag": "name",
+        "patterns": ["What is your name", "What should I call you", "whats your name?", "who are you?"],
+        "responses": ["You can call me Fam", "I'm Fam", "I'm Fam, here for assistance to you!"]
+    },
+    {
+        "tag": "age",
+        "patterns": ["how old", "what is your age ", "how old are you", "age?"],
+        "responses": ["My owner is 1 years old ", "1 year"]
+    },
+    {
+        "tag": "questions",
+        "patterns": ["Id like to solve problems", "what are tickets?", "what do you recommend?"],
+        "responses": ["I'm here to help you solve problems", "If we cannot solve problems, let's open a ticket!"]
+    },
+    {
+        "tag": "hours",
+        "patterns": ["When are you guys open", "What are your hours", "Hours of operation"],
+        "responses": ["7/24", "Here for 7/24!"]
+    },
+    {
+        "tag": "noanswer",
+        "patterns": [" "],
+        "responses": ["I'm sorry, I couldn't understand you.", "Please provide us more information?", "I'm not sure I understand."],
+        "context_set": ""
+    }
+]}
